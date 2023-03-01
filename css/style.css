@@ -70,7 +70,6 @@ img{
 
 .content .boolean_student{
     background-color: var(--bg-blue);
-    height: 200px;
 }
 
 .content .boolean_student .offcanvas{
