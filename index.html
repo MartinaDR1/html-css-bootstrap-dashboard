@@ -21,7 +21,7 @@
         <title>Bootstrap Dashboard</title>
 
     </head>
-    <body class="debug">
+    <body>
         <header id="app_header"></header>
         <!-- /#app_header -->
 
@@ -305,11 +305,11 @@
                 </section>
                 <div class="container">
                     <div class="row ">
-                        <div class="col-12 col-lg-8 class py-2">
+                        <div class="col-12 col-lg-8 class my-2">
                             <table class="table border text-center">
 
                                 <thead>
-                                    <tr>
+                                    <tr class="bg-light">
                                         <th scope="col">Prossime classi</th>
                                         <th scope="col"></th>
                                         <th scope="col"></th>
@@ -571,7 +571,41 @@
 
 
                         </div>
-                        <div class="col-12 col-lg-4 todo"></div>
+
+                        <section class="col-12 col-lg-4 todo mb-2 px-2">
+                            <div class="todolist border p-3 rounded-2 my-2">
+                                <h6 class="fw-bold border-bottom bg-light">Todo</h6>
+                                <ul class="list-group">
+                                    <li class="list-group-item">
+                                        <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckbox">
+                                        <label class="form-check-label" for="firstCheckbox">Kickoff nuove classi</label>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
+                                        <label class="form-check-label" for="secondCheckbox">Lezione su Bootstrap 5 in classe #75</label>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <input class="form-check-input me-1" type="checkbox" value="" id="thirdCheckbox">
+                                        <label class="form-check-label" for="thirdCheckbox">Controllore username github studenti</label>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="stats border rounded-2 p-3">
+                                <div class="info border rounded-2 px-1">
+                                    <img src="./img/stats.jpeg" alt="">
+
+                                    <h6>Utenti attivi</h6>
+                                    <span class="fw-lighter border-bottom">Lista utenti attivi in piattaforma nell'ultimo mese</span>
+                                    <ul class="list-unstyled">
+                                        <li class="border-bottom"> Gennaio:1200</li>
+                                        <li class="border-bottom"> Febbraio:800</li>
+                                        <li class="border-bottom"> Marzo:1500</li>
+                                        <li><a href="">Visualizza report approfondito</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </section>
                     </div>
                 </div>
             </div>
