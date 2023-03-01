@@ -1,12 +1,5 @@
 /*Debug*/
-.debug #app_header{
-    background-color: aquamarine;
-    height: 3rem;
-}
 
-.debug .sidebar{
-    background-color: blueviolet;
-}
 
 .debug .content{
     background-color: darksalmon;
@@ -17,21 +10,48 @@
 }
 
 
+img{
+    max-width: 100%;
+}
 
-.top{
-    height: calc(100vh - 3rem);
-    background-color: var(--primary);
-    overflow: hidden;
+/*Responsive*/
+
+@media screen and (min-width:992px) {
+    .top .sidebar{
+        width: 200px;
+        align-items: flex-start;
+    }
+
+    .top .sidebar span{
+        display: inline-block;
+    }
+}
+
+/*Header*/
+#app_header{
+    height: 4rem;
+}
+
+.search input{
+    width: 300px;
 }
 
 /*Main*/
 
+.top{
+    height: calc(100vh - 4rem);
+    background-color: var(--primary);
+    overflow: hidden;
+}
+
 .sidebar{
-    width:100px;
-    height: calc(100vh - 3rem);
+    width:50px;
+    height: calc(100vh - 4rem);
+    background-color: #0e253b;
+    background-image: url(../img/sidebar-bg.png);
 }
 
 .content{
-    width: calc(100% - 100px);
+    width: calc(100% - 50px);
     overflow-y: auto;
 }
