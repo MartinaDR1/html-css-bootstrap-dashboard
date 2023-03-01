@@ -1,9 +1,5 @@
 /*Debug*/
 
-
-.debug .content{
-    background-color: darksalmon;
-}
 /*
 [class^="col-"]{
     border: 1px dashed black;
@@ -47,6 +43,7 @@ img{
     .top .content .boolean_student .offcanvas{
     width: 50%;
     }
+    
 }
 
 /*Header*/
@@ -85,4 +82,12 @@ img{
 
 .content .boolean_student .offcanvas{
     width: 100%;
+}
+
+.content .table .code{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: #f26551;
+    border-radius: 50%;
 }
