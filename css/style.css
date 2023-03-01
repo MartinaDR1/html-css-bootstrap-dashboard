@@ -4,26 +4,48 @@
 .debug .content{
     background-color: darksalmon;
 }
+/*
 [class^="col-"]{
     border: 1px dashed black;
     height: 15rem;
 }
-
+*/
+:root{
+    --bg-side:#0e253b;
+    --bg-blue:#1b72e8;
+    --bg-btn:#165bba;
+}
 
 img{
     max-width: 100%;
 }
 
+.bg_btn{
+    background-color: var(--bg-btn);
+}
 /*Responsive*/
 
 @media screen and (min-width:992px) {
     .top .sidebar{
-        width: 200px;
+        width: 150px;
         align-items: flex-start;
     }
 
     .top .sidebar span{
         display: inline-block;
+    }
+
+    .top .boolean_student button{
+        display: inline-block;
+    }
+
+    .top .boolean_student #plus{
+        display: none;
+    }
+
+    
+    .top .content .boolean_student .offcanvas{
+    width: 50%;
     }
 }
 
@@ -47,11 +69,20 @@ img{
 .sidebar{
     width:50px;
     height: calc(100vh - 4rem);
-    background-color: #0e253b;
+    background-color: var(--bg-side);
     background-image: url(../img/sidebar-bg.png);
 }
 
 .content{
     width: calc(100% - 50px);
     overflow-y: auto;
+}
+
+.content .boolean_student{
+    background-color: var(--bg-blue);
+    height: 200px;
+}
+
+.content .boolean_student .offcanvas{
+    width: 100%;
 }
