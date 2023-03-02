@@ -2,6 +2,7 @@
     --bg-side:#0e253b;
     --bg-blue:#1b72e8;
     --bg-btn:#165bba;
+    --bg-search:#e9ecef;
 }
 
 img{
@@ -12,7 +13,9 @@ img{
     background-color: var(--bg-btn);
 }
 
-
+.bg_search{
+    background-color: var(--bg-search);
+}
 /*Responsive*/
 
 @media screen and (min-width:992px) {
@@ -59,6 +62,7 @@ img{
 
 .sidebar{
     width:50px;
+    z-index: 99;
     height: calc(100vh - 4rem);
     background-color: var(--bg-side);
     background-image: url(../img/sidebar-bg.png);
@@ -66,6 +70,7 @@ img{
 
 .content{
     width: calc(100% - 50px);
+    z-index: 99;
     overflow-y: auto;
 }
 ::-webkit-scrollbar{
