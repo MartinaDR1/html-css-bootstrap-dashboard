@@ -24,23 +24,13 @@ img{
         align-items: flex-start;
     }
 
-    .top .sidebar span{
-        display: inline-block;
-    }
-
-    .top .boolean_student button{
-        display: inline-block;
-    }
-
-    .top .boolean_student #plus{
-        display: none;
-    }
-
-    
     .top .content .boolean_student .offcanvas{
     width: 50%;
     }
     
+    .top .sidebar .item:hover{
+        background-color: gray;
+    }
 }
 
 /*Header*/

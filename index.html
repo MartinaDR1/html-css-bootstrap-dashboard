@@ -24,15 +24,15 @@
     <body>
         <header id="app_header">
 
-            <nav class="navbar navbar-expand-lg row justify-content-between align-items-start px-2">
+            <nav class="navbar navbar-expand-lg row justify-content-between align-items-start px-2 d-sm-flex">
                 
-                <div class="col-lg-2 col-sm-1 mt-2">
+                <div class="col-2  mt-2">
                     <a class="navbar-brand" href="#">
                         <img class="d-lg-none" src="./img/mobile-logo.png" alt="" style="width: 40px;">
                         <img class="d-sm-none d-lg-block" src="./img/logo.svg" alt="">
                     </a>
                 </div>
-                <div class="col-lg-8 col-sm-10 gap-3">
+                <div class="col-8">
                     <div class="input-group flex-nowrap border rounded-2">
                         <span class="input-group-text border-0" id="addon-wrapping">
                             <i class="fa-solid fa-magnifying-glass"></i>
@@ -40,7 +40,7 @@
                         <input type="text" class="form-control border-0 bg_search" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Username" aria-describedby="addon-wrapping">
                     </div>
                 </div>
-                <div class="col-lg-2 col-sm-1 d-flex justify-content-end">
+                <div class="col-2 d-flex justify-content-end">
                     <div class="btn-group d-sm-none d-md-none d-lg-block" role="group" aria-label="Basic example">
                         <button type="button" class="btn btn-sm">
                             <i class="fa-solid fa-list"></i>
@@ -78,25 +78,25 @@
                 py-3">
 
                 <div class="side-top text-center">
-                    <div class="home">
+                    <div class="item home mx-lg-2">
                         <i class="fa-solid fa-house text-light p-2"></i>
-                        <span class="text-light fw-semibold collapse">Home</span>
+                        <span class="text-light fw-semibold collapse d-lg-inline-block ">Home</span>
                     </div>
 
-                    <div class="chart text">
+                    <div class="item chart mx-lg-2">
                         <i class="fa-solid fa-chart-simple text-light p-2"></i>
-                        <span class="text-light fw-semibold collapse">Stats</span>
+                        <span class="text-light fw-semibold collapse d-lg-inline-block ">Stats</span>
                     </div>
 
-                    <div class="signal ">
+                    <div class="item signal mx-lg-2">
                         <i class="fa-solid fa-signal text-light p-2"></i>
-                        <span class="text-light fw-semibold collapse">Signals</span>
+                        <span class="text-light fw-semibold collapse d-lg-inline-block">Signals</span>
                     </div>
                 </div>
                 <div class="side-bottom text-center">
-                    <div class="setting ">
+                    <div class="item setting mx-lg-2">
                         <i class="fa-solid fa-gear text-light p-2"></i>
-                        <span class="text-light fw-semibold collapse">Admin</span>
+                        <span class="text-light fw-semibold collapse d-lg-inline-block">Admin</span>
                     </div>
                 </div>
 
@@ -110,61 +110,34 @@
                     <div class="row text-light px-2">
                         <div class="col-sm-12 col-md-4 order-sm-1 order-md-0
                                 py-sm-2 text-start">
-                                <div class=" d-flex">
-                                    <h6 class="fs-3">Boolean
-                                        <button type="button" class="btn bg_btn
+                            <div class=" d-flex">
+                                <h6 class="fs-3">Boolean
+                                    <button type="button" class="btn bg_btn
                                             rounded-5 text-light"
                                             style="--bs-btn-padding-y: .25rem;
                                             --bs-btn-padding-x: .5rem;
                                             --bs-btn-font-size: .75rem;">Piano
                                             blaze
-                                        </button>
-                                    </h6>
-                                </div>
-
-                                <div class="d-inline">
-                                    <button type="button" class="btn bg_btn
-                                        rounded-5 text-light"
-                                        style="--bs-btn-padding-y: .25rem;
-                                        --bs-btn-padding-x: .5rem;
-                                        --bs-btn-font-size: .75rem;">3 app
                                     </button>
+                                </h6>
+                            </div>
+
+                            <div class="d-inline">
+                                    <span class="badge bg_btn  text-light  rounded-pill">3 app</span>
                                     <i class="fa-solid fa-angles-right fa-xs
                                         text-light">
                                     </i>
 
-                                    <button type="button" class="btn bg_btn
-                                        rounded-5 text-light collapse"
-                                        style="--bs-btn-padding-y: .25rem;
-                                        --bs-btn-padding-x: .5rem;
-                                        --bs-btn-font-size: .75rem;">Booleand
-                                        mobile app
-                                    </button>
+                                    <span class="badge bg_btn text-light  rounded-pill d-sm-none d-md-inline-block ">Boolean mobile app</span>
 
-                                    <button type="button" class="btn bg_btn
-                                        rounded-5 text-light collapse"
-                                        style="--bs-btn-padding-y: .25rem;
-                                        --bs-btn-padding-x: .5rem;
-                                        --bs-btn-font-size: .75rem;">Booleand
-                                        web app
-                                    </button>
+                                    <span class="badge bg_btn text-light  rounded-pill d-sm-none d-md-inline-block">Boolean web app</span>
 
-                                    <button type="button" class="btn bg_btn
-                                        rounded-5 text-light collapse"
-                                        style="--bs-btn-padding-y: .25rem;
-                                        --bs-btn-padding-x: .5rem;
-                                        --bs-btn-font-size: .75rem;">Booleand
-                                        blog app
-                                    </button>
+                                    <span class="badge bg_btn text-light  rounded-pill d-sm-none d-md-inline-block">Boolean blog app</span>
 
-                                    <button type="button" class="btn bg_btn
-                                        rounded-5 text-light"
-                                        style="--bs-btn-padding-y: .25rem;
-                                        --bs-btn-padding-x: .5rem;
-                                        --bs-btn-font-size: .75rem;" id="plus">
+                                    <span class="badge bg_btn text-light  rounded-pill d-sm-inline-block d-md-none">
                                         <i class="fa-solid fa-plus"></i>
-                                    </button>
-                                </div>
+                                    </span>
+                            </div>
                         </div>
                         <div class="col-sm-12 col-md-4 d-flex flex-column
                                 order-sm-2 order-md-1 mt-2">
