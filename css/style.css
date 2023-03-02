@@ -16,12 +16,42 @@ img{
 .bg_search{
     background-color: var(--bg-search);
 }
+
 /*Responsive*/
+@media screen and (max-width:576px) {
+    .navbar #desk_logo{
+        display: none;
+    }
+
+    .navbar #btn_group{
+        display: none;
+    }
+
+    .content .boolean_student #logo{
+        order: 1;
+    }
+
+    .content .boolean_student #total{
+        order: 2;
+    }
+
+    .content .boolean_student #new_student{
+        order: 0;
+    }
+
+    .content .boolean_student #logo .bdg_xxs{
+        display: none;
+    }
+}
 
 @media screen and (min-width:992px) {
     .top .sidebar{
         width: 150px;
         align-items: flex-start;
+    }
+
+    .top .content{
+        width: calc(100%- 150px);
     }
 
     .top .content .boolean_student .offcanvas{
@@ -66,6 +96,7 @@ img{
 ::-webkit-scrollbar{
     display: none;
 }
+
 .content .boolean_student{
     background-color: var(--bg-blue);
 }

@@ -22,14 +22,13 @@
 
     </head>
     <body>
-        <header id="app_header">
-
-            <nav class="navbar navbar-expand-lg row justify-content-between align-items-start px-2 d-sm-flex">
+        <header id="app_header" class="container-fluid">
+            <nav class="navbar navbar-expand-lg row justify-content-between align-items-start d-sm-flex">
                 
-                <div class="col-2  mt-2">
-                    <a class="navbar-brand" href="#">
+                <div class="col-2 mt-2">
+                    <a class="navbar_brand" href="#">
                         <img class="d-lg-none" src="./img/mobile-logo.png" alt="" style="width: 40px;">
-                        <img class="d-sm-none d-lg-block" src="./img/logo.svg" alt="">
+                        <img id="desk-logo" class="d-sm-none d-lg-block" src="./img/logo.svg" alt="">
                     </a>
                 </div>
                 <div class="col-8">
@@ -41,7 +40,7 @@
                     </div>
                 </div>
                 <div class="col-2 d-flex justify-content-end">
-                    <div class="btn-group d-sm-none d-md-none d-lg-block" role="group" aria-label="Basic example">
+                    <div id="btn_group" class="btn-group d-sm-none d-md-none d-lg-block" role="group" aria-label="Basic example">
                         <button type="button" class="btn btn-sm">
                             <i class="fa-solid fa-list"></i>
                         </button>
@@ -72,7 +71,7 @@
         </header>
         <!-- /#app_header -->
 
-        <div class="top d-flex ">
+        <div class="top d-flex">
 
             <div class="sidebar d-flex flex-column justify-content-between
                 py-3">
@@ -105,10 +104,10 @@
             <!-- /Sidebar -->
 
             <div class="content">
-                <section class="boolean_student pt-3">
+                <section class="boolean_student container-fluid pt-3">
                    
                     <div class="row text-light px-2">
-                        <div class="col-sm-12 col-md-4 order-sm-1 order-md-0
+                        <div id="logo" class="col-sm-12 col-md-4 order-sm-1 order-md-0
                                 py-sm-2 text-start">
                             <div class=" d-flex">
                                 <h6 class="fs-3">Boolean
@@ -123,28 +122,28 @@
                             </div>
 
                             <div class="d-inline">
-                                    <span class="badge bg_btn  text-light  rounded-pill">3 app</span>
-                                    <i class="fa-solid fa-angles-right fa-xs
-                                        text-light">
-                                    </i>
+                                <span class="badge bg_btn  text-light  rounded-pill">3 app</span>
+                                <i class="fa-solid fa-angles-right fa-xs
+                                    text-light">
+                                </i>
 
-                                    <span class="badge bg_btn text-light  rounded-pill d-sm-none d-md-inline-block ">Boolean mobile app</span>
+                                <span class="badge bg_btn text-light bdg_xxs rounded-pill d-sm-none d-md-inline-block ">Boolean mobile app</span>
 
-                                    <span class="badge bg_btn text-light  rounded-pill d-sm-none d-md-inline-block">Boolean web app</span>
+                                <span class="badge bg_btn text-light bdg_xxs  rounded-pill d-sm-none d-md-inline-block">Boolean web app</span>
 
-                                    <span class="badge bg_btn text-light  rounded-pill d-sm-none d-md-inline-block">Boolean blog app</span>
+                                <span class="badge bg_btn text-light bdg_xxs  rounded-pill d-sm-none d-md-inline-block">Boolean blog app</span>
 
-                                    <span class="badge bg_btn text-light  rounded-pill d-sm-inline-block d-md-none">
-                                        <i class="fa-solid fa-plus"></i>
-                                    </span>
+                                <span class="badge bg_btn text-light  rounded-pill d-sm-inline-block d-md-none">
+                                    <i class="fa-solid fa-plus"></i>
+                                </span>
                             </div>
                         </div>
-                        <div class="col-sm-12 col-md-4 d-flex flex-column
+                        <div id="total" class="col-sm-12 col-md-4 d-flex flex-column
                                 order-sm-2 order-md-1 mt-2">
                                 <span>Studenti online negli ultimi 30 minuti</span>
                                 <span class="fs-3">125</span>
                         </div>
-                        <div class="col-sm-12 col-md-4 order-sm-0 order-md-2
+                        <div id="new_student" class="col-sm-12 col-md-4 order-sm-0 order-md-2
                                 text-md-end mt-2">
                                 <span>Nuovo studente</span>
 
