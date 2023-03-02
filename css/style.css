@@ -67,7 +67,9 @@ img{
     width: calc(100% - 50px);
     overflow-y: auto;
 }
-
+::-webkit-scrollbar{
+    display: none;
+}
 .content .boolean_student{
     background-color: var(--bg-blue);
 }
@@ -78,8 +80,5 @@ img{
 
 .content .table .code{
     display: inline-block;
-    width: 30px;
-    height: 30px;
-    background-color: #f26551;
-    border-radius: 50%;
+    width: 2rem;
 }

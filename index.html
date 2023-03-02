@@ -55,11 +55,13 @@
 
             </div>
 
+            <!-- /Sidebar -->
+
             <div class="content">
                 <section class="boolean_student">
-                    <div class="container">
-                        <div class="row text-light p-3">
-                            <div class="col-sm-12 col-md-4 order-sm-1 order-md-0
+                   
+                    <div class="row text-light p-3">
+                        <div class="col-sm-12 col-md-4 order-sm-1 order-md-0
                                 py-sm-2 text-start">
                                 <div class=" d-flex">
                                     <h6 class="fs-3">Boolean
@@ -116,13 +118,13 @@
                                         <i class="fa-solid fa-plus"></i>
                                     </button>
                                 </div>
-                            </div>
-                            <div class="col-sm-12 col-md-4 d-flex flex-column
+                        </div>
+                        <div class="col-sm-12 col-md-4 d-flex flex-column
                                 order-sm-2 order-md-1">
                                 <span>Studenti online negli ultimi 30 minuti</span>
                                 <span class="fs-3">125</span>
-                            </div>
-                            <div class="col-sm-12 col-md-4 order-sm-0 order-md-2
+                        </div>
+                        <div class="col-sm-12 col-md-4 order-sm-0 order-md-2
                                 text-md-end">
                                 <span>Nuovo studente</span>
 
@@ -154,7 +156,7 @@
                                             novalidate>
                                             <div class="col-md-6 text-black">
                                                 <label for="validationCustom01"
-                                                    class="form-label ">Nome</label>
+                                                    class="form-label">Nome</label>
                                                 <input type="text"
                                                     class="form-control"
                                                     id="validationCustom01"
@@ -299,277 +301,273 @@
                                         </form>
                                     </div>
                                 </div>
-                            </div>
                         </div>
                     </div>
+                    
                 </section>
+
+                <!-- /section student -->
+                
                 <div class="container">
                     <div class="row ">
                         <div class="col-12 col-lg-8 class my-2">
-                            <table class="table border text-center">
+                            <div class="card mb-2">
+                                <h5 class="my-0 p-2 bg-light">Prossime classi</h5>
+                                <table class="table text-center">
+                                    <thead>
+                                        <tr class="border-bottom">
+                                            <th class="fw-normal" scope="col">Nome</th>
+                                            <th class="fw-normal d-sm-none d-md-inline-block border-0" scope="col">Data inizio</th>
+                                            <th class="fw-normal d-sm-none d-md-inline-block border-0" scope="col">ROI</th>
+                                            <th class="fw-normal" scope="col">Stato</th>
+                                            <th class="fw-normal" scope="col">Azioni</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>                 
+                                        <tr class="border-bottom">
+                                            <th class="fw-normal" scope="row">
+                                                <div class="code">
+                                                    <img src="./img/class-avatar.jpg" alt="">
+                                                </div>
+                                                Classe 75
+                                            </th>
+                                            <td class="d-sm-none d-md-inline-block border-0">15 febbraio 2021</td>
+                                            <td class="d-sm-none d-md-inline-block border-0">20%</td>
+                                            <td>
+                                                <button type="button" class="btn
+                                                    btn-success"
+                                                    style="--bs-btn-padding-y:
+                                                    .25rem; --bs-btn-padding-x:
+                                                    .5rem; --bs-btn-font-size:
+                                                    .75rem;">
+                                                    Done
+                                                </button>
+                                            </td>
+                                            <td>
+                                                <button type="button" class="btn btn-outline-secondary btn-sm">
+                                                    <i class="fa-solid fa-pencil"></i>
+                                                </button>
+                                                
+                                                <button type="button" class="btn btn-outline-secondary btn-sm">
+                                                    <i class="fa-solid fa-trash"></i>
+                                                </button>
+                                            </td>
+                                        </tr>
 
-                                <thead>
-                                    <tr class="bg-light">
-                                        <th scope="col">Prossime classi</th>
-                                        <th scope="col"></th>
-                                        <th scope="col"></th>
-                                        <th scope="col"></th>
-                                        <th scope="col"></th>
-                                    </tr>
-                                </thead>
+                                        <tr class="border-bottom">
+                                            <th class="fw-normal" scope="row">
+                                                <div class="code">
+                                                    <img src="./img/class-avatar.jpg" alt="">
+                                                </div>
+                                                Classe 76
+                                            </th>
+                                            <td class="d-sm-none d-md-inline-block border-0">16 febbraio 2021</td>
+                                            <td class="d-sm-none d-md-inline-block border-0">20%</td>
+                                            <td>
+                                                <button type="button" class="btn
+                                                    btn-success"
+                                                    style="--bs-btn-padding-y:
+                                                    .25rem; --bs-btn-padding-x:
+                                                    .5rem; --bs-btn-font-size:
+                                                    .75rem;">
+                                                    Done
+                                                </button>
+                                            </td>
+                                            <td>
+                                                <button type="button" class="btn btn-outline-secondary btn-sm">
+                                                    <i class="fa-solid fa-pencil"></i>
+                                                </button>
+                                                
+                                                <button type="button" class="btn btn-outline-secondary btn-sm">
+                                                    <i class="fa-solid fa-trash"></i>
+                                                </button>
+                                            </td>
+                                        </tr>
 
-                                <tbody>
-                                    <tr class="border">
-                                        <th class="fw-normal" scope="col">Nome</th>
-                                        <th class="fw-normal d-sm-none d-md-inline-block border-0" scope="col">Data inizio</th>
-                                        <th class="fw-normal d-sm-none d-md-inline-block text-center border-0" scope="col">ROI</th>
-                                        <th class="fw-normal" scope="col">Stato</th>
-                                        <th class="fw-normal" scope="col">Azioni</th>
-                                    </tr>
-                                    
-                                    <tr class="border">
-                                        <th class="fw-normal" scope="row">
-                                            <div class="code">
-                                                <i class="fa-solid fa-code text-light py-2"></i>
-                                            </div>
-                                            Classe 75
-                                        </th>
-                                        <td class="d-sm-none d-md-inline-block border-0">15 febbraio 2021</td>
-                                        <td class="d-sm-none d-md-inline-block border-0">20%</td>
-                                        <td>
-                                            <button type="button" class="btn
-                                                btn-success"
-                                                style="--bs-btn-padding-y:
-                                                .25rem; --bs-btn-padding-x:
-                                                .5rem; --bs-btn-font-size:
-                                                .75rem;">
-                                                Done
-                                            </button>
-                                        </td>
-                                        <td>
-                                            <button type="button" class="btn btn-outline-secondary btn-sm">
-                                                <i class="fa-solid fa-pencil"></i>
-                                            </button>
-                                            
-                                            <button type="button" class="btn btn-outline-secondary btn-sm">
-                                                <i class="fa-solid fa-trash"></i>
-                                            </button>
-                                        </td>
-                                    </tr>
+                                        <tr class="border-bottom">
+                                            <th class="fw-normal" scope="row">
+                                                <div class="code">
+                                                    <img src="./img/class-avatar.jpg" alt="">
+                                                </div>
+                                                Classe 77
+                                            </th>
+                                            <td class="d-sm-none d-md-inline-block border-0">17 febbraio 2021</td>
+                                            <td class="d-sm-none d-md-inline-block border-0">20%</td>
+                                            <td>
+                                                <button type="button" class="btn
+                                                    btn-warning"
+                                                    style="--bs-btn-padding-y:
+                                                    .25rem; --bs-btn-padding-x:
+                                                    .5rem; --bs-btn-font-size:
+                                                    .75rem;">
+                                                    Process
+                                                </button>
+                                            </td>
+                                            <td>
+                                                <button type="button" class="btn btn-outline-secondary btn-sm">
+                                                    <i class="fa-solid fa-pencil"></i>
+                                                </button>
+                                                
+                                                <button type="button" class="btn btn-outline-secondary btn-sm">
+                                                    <i class="fa-solid fa-trash"></i>
+                                                </button>
+                                            </td>
+                                        </tr>
 
-                                    <tr class="border">
-                                        <th class="fw-normal" scope="row">
-                                            <div class="code">
-                                                <i class="fa-solid fa-code text-light py-2"></i>
-                                            </div>
-                                            Classe 76
-                                        </th>
-                                        <td class="d-sm-none d-md-inline-block border-0">16 febbraio 2021</td>
-                                        <td class="d-sm-none d-md-inline-block border-0">20%</td>
-                                        <td>
-                                            <button type="button" class="btn
-                                                btn-success"
-                                                style="--bs-btn-padding-y:
-                                                .25rem; --bs-btn-padding-x:
-                                                .5rem; --bs-btn-font-size:
-                                                .75rem;">
-                                                Done
-                                            </button>
-                                        </td>
-                                        <td>
-                                            <button type="button" class="btn btn-outline-secondary btn-sm">
-                                                <i class="fa-solid fa-pencil"></i>
-                                            </button>
-                                            
-                                            <button type="button" class="btn btn-outline-secondary btn-sm">
-                                                <i class="fa-solid fa-trash"></i>
-                                            </button>
-                                        </td>
-                                    </tr>
+                                        <tr class="border-bottom">
+                                            <th class="fw-normal" scope="row">
+                                                <div class="code">
+                                                    <img src="./img/class-avatar.jpg" alt="">
+                                                </div>
+                                                Classe 78
+                                            </th>
+                                            <td class="d-sm-none d-md-inline-block border-0">18 febbraio 2021</td>
+                                            <td class="d-sm-none d-md-inline-block border-0">20%</td>
+                                            <td>
+                                                <button type="button" class="btn
+                                                    btn-success"
+                                                    style="--bs-btn-padding-y:
+                                                    .25rem; --bs-btn-padding-x:
+                                                    .5rem; --bs-btn-font-size:
+                                                    .75rem;">
+                                                    Done
+                                                </button>
+                                            </td>
+                                            <td>
+                                                <button type="button" class="btn btn-outline-secondary btn-sm">
+                                                    <i class="fa-solid fa-pencil"></i>
+                                                </button>
+                                                
+                                                <button type="button" class="btn btn-outline-secondary btn-sm">
+                                                    <i class="fa-solid fa-trash"></i>
+                                                </button>
+                                            </td>
+                                        </tr>
 
-                                    <tr class="border">
-                                        <th class="fw-normal" scope="row">
-                                            <div class="code">
-                                                <i class="fa-solid fa-code text-light py-2"></i>
-                                            </div>
-                                            Classe 77
-                                        </th>
-                                        <td class="d-sm-none d-md-inline-block border-0">17 febbraio 2021</td>
-                                        <td class="d-sm-none d-md-inline-block border-0">20%</td>
-                                        <td>
-                                            <button type="button" class="btn
-                                                btn-warning"
-                                                style="--bs-btn-padding-y:
-                                                .25rem; --bs-btn-padding-x:
-                                                .5rem; --bs-btn-font-size:
-                                                .75rem;">
-                                                Process
-                                            </button>
-                                        </td>
-                                        <td>
-                                            <button type="button" class="btn btn-outline-secondary btn-sm">
-                                                <i class="fa-solid fa-pencil"></i>
-                                            </button>
-                                            
-                                            <button type="button" class="btn btn-outline-secondary btn-sm">
-                                                <i class="fa-solid fa-trash"></i>
-                                            </button>
-                                        </td>
-                                    </tr>
+                                        <tr class="border-bottom">
+                                            <th class="fw-normal" scope="row">
+                                                <div class="code">
+                                                    <img src="./img/class-avatar.jpg" alt="">
+                                                </div>
+                                                Classe 79
+                                            </th>
+                                            <td class="d-sm-none d-md-inline-block border-0">19 febbraio 2021</td>
+                                            <td class="d-sm-none d-md-inline-block border-0">20%</td>
+                                            <td>
+                                                <button type="button" class="btn
+                                                    btn-danger"
+                                                    style="--bs-btn-padding-y:
+                                                    .25rem; --bs-btn-padding-x:
+                                                    .5rem; --bs-btn-font-size:
+                                                    .75rem;">
+                                                    Faile
+                                                </button>
+                                            </td>
+                                            <td>
+                                                <button type="button" class="btn btn-outline-secondary btn-sm">
+                                                    <i class="fa-solid fa-pencil"></i>
+                                                </button>
+                                                
+                                                <button type="button" class="btn btn-outline-secondary btn-sm">
+                                                    <i class="fa-solid fa-trash"></i>
+                                                </button>
+                                            </td>
+                                        </tr>
 
-                                    <tr class="border">
-                                        <th class="fw-normal" scope="row">
-                                            <div class="code">
-                                                <i class="fa-solid fa-code text-light py-2"></i>
-                                            </div>
-                                            Classe 78
-                                        </th>
-                                        <td class="d-sm-none d-md-inline-block border-0">18 febbraio 2021</td>
-                                        <td class="d-sm-none d-md-inline-block border-0">20%</td>
-                                        <td>
-                                            <button type="button" class="btn
-                                                btn-success"
-                                                style="--bs-btn-padding-y:
-                                                .25rem; --bs-btn-padding-x:
-                                                .5rem; --bs-btn-font-size:
-                                                .75rem;">
-                                                Done
-                                            </button>
-                                        </td>
-                                        <td>
-                                            <button type="button" class="btn btn-outline-secondary btn-sm">
-                                                <i class="fa-solid fa-pencil"></i>
-                                            </button>
-                                            
-                                            <button type="button" class="btn btn-outline-secondary btn-sm">
-                                                <i class="fa-solid fa-trash"></i>
-                                            </button>
-                                        </td>
-                                    </tr>
+                                        <tr class="border-bottom">
+                                            <th class="fw-normal" scope="row">
+                                                <div class="code">
+                                                    <img src="./img/class-avatar.jpg" alt="">
+                                                </div>
+                                                Classe 80
+                                            </th>
+                                            <td class="d-sm-none d-md-inline-block border-0">20 febbraio 2021</td>
+                                            <td class="d-sm-none d-md-inline-block border-0">20%</td>
+                                            <td>
+                                                <button type="button" class="btn
+                                                    btn-success"
+                                                    style="--bs-btn-padding-y:
+                                                    .25rem; --bs-btn-padding-x:
+                                                    .5rem; --bs-btn-font-size:
+                                                    .75rem;">
+                                                    Done
+                                                </button>
+                                            </td>
+                                            <td>
+                                                <button type="button" class="btn btn-outline-secondary btn-sm">
+                                                    <i class="fa-solid fa-pencil"></i>
+                                                </button>
+                                                
+                                                <button type="button" class="btn btn-outline-secondary btn-sm">
+                                                    <i class="fa-solid fa-trash"></i>
+                                                </button>
+                                            </td>
+                                        </tr>
 
-                                    <tr class="border">
-                                        <th class="fw-normal" scope="row">
-                                            <div class="code">
-                                                <i class="fa-solid fa-code text-light py-2"></i>
-                                            </div>
-                                            Classe 79
-                                        </th>
-                                        <td class="d-sm-none d-md-inline-block border-0">19 febbraio 2021</td>
-                                        <td class="d-sm-none d-md-inline-block border-0">20%</td>
-                                        <td>
-                                            <button type="button" class="btn
-                                                btn-danger"
-                                                style="--bs-btn-padding-y:
-                                                .25rem; --bs-btn-padding-x:
-                                                .5rem; --bs-btn-font-size:
-                                                .75rem;">
-                                                Faile
-                                            </button>
-                                        </td>
-                                        <td>
-                                            <button type="button" class="btn btn-outline-secondary btn-sm">
-                                                <i class="fa-solid fa-pencil"></i>
-                                            </button>
-                                            
-                                            <button type="button" class="btn btn-outline-secondary btn-sm">
-                                                <i class="fa-solid fa-trash"></i>
-                                            </button>
-                                        </td>
-                                    </tr>
+                                        <tr class="border-bottom">
+                                            <th class="fw-normal" scope="row">
+                                                <div class="code">
+                                                    <img src="./img/class-avatar.jpg" alt="">
+                                                </div>
+                                                Classe 81
+                                            </th>
+                                            <td class="d-sm-none d-md-inline-block border-0">21 febbraio 2021</td>
+                                            <td class="d-sm-none d-md-inline-block border-0">20%</td>
+                                            <td>
+                                                <button type="button" class="btn
+                                                    btn-danger"
+                                                    style="--bs-btn-padding-y:
+                                                    .25rem; --bs-btn-padding-x:
+                                                    .5rem; --bs-btn-font-size:
+                                                    .75rem;">
+                                                    Failed
+                                                </button>
+                                            </td>
+                                            <td>
+                                                <button type="button" class="btn btn-outline-secondary btn-sm">
+                                                    <i class="fa-solid fa-pencil"></i>
+                                                </button>
+                                                
+                                                <button type="button" class="btn btn-outline-secondary btn-sm">
+                                                    <i class="fa-solid fa-trash"></i>
+                                                </button>
+                                            </td>
+                                        </tr>
 
-                                    <tr class="border">
-                                        <th class="fw-normal" scope="row">
-                                            <div class="code">
-                                                <i class="fa-solid fa-code text-light py-2"></i>
-                                            </div>
-                                            Classe 80
-                                        </th>
-                                        <td class="d-sm-none d-md-inline-block border-0">20 febbraio 2021</td>
-                                        <td class="d-sm-none d-md-inline-block border-0">20%</td>
-                                        <td>
-                                            <button type="button" class="btn
-                                                btn-success"
-                                                style="--bs-btn-padding-y:
-                                                .25rem; --bs-btn-padding-x:
-                                                .5rem; --bs-btn-font-size:
-                                                .75rem;">
-                                                Done
-                                            </button>
-                                        </td>
-                                        <td>
-                                            <button type="button" class="btn btn-outline-secondary btn-sm">
-                                                <i class="fa-solid fa-pencil"></i>
-                                            </button>
-                                            
-                                            <button type="button" class="btn btn-outline-secondary btn-sm">
-                                                <i class="fa-solid fa-trash"></i>
-                                            </button>
-                                        </td>
-                                    </tr>
+                                        <tr class="border-bottom">
+                                            <th class="fw-normal" scope="row">
+                                                <div class="code">
+                                                    <img src="./img/class-avatar.jpg" alt="">
+                                                </div>
+                                                Classe 82
+                                            </th>
+                                            <td class="d-sm-none d-md-inline-block border-0">15 febbraio 2021</td>
+                                            <td class="d-sm-none d-md-inline-block border-0">20%</td>
+                                            <td>
+                                                <button type="button" class="btn
+                                                    btn-success"
+                                                    style="--bs-btn-padding-y:
+                                                    .25rem; --bs-btn-padding-x:
+                                                    .5rem; --bs-btn-font-size:
+                                                    .75rem;">
+                                                    Done
+                                                </button>
+                                            </td>
+                                            <td>
+                                                <button type="button" class="btn btn-outline-secondary btn-sm">
+                                                    <i class="fa-solid fa-pencil"></i>
+                                                </button>
+                                                
+                                                <button type="button" class="btn btn-outline-secondary btn-sm">
+                                                    <i class="fa-solid fa-trash"></i>
+                                                </button>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
 
-                                    <tr class="border">
-                                        <th class="fw-normal" scope="row">
-                                            <div class="code">
-                                                <i class="fa-solid fa-code text-light py-2"></i>
-                                            </div>
-                                            Classe 81
-                                        </th>
-                                        <td class="d-sm-none d-md-inline-block border-0">21 febbraio 2021</td>
-                                        <td class="d-sm-none d-md-inline-block border-0">20%</td>
-                                        <td>
-                                            <button type="button" class="btn
-                                                btn-danger"
-                                                style="--bs-btn-padding-y:
-                                                .25rem; --bs-btn-padding-x:
-                                                .5rem; --bs-btn-font-size:
-                                                .75rem;">
-                                                Failed
-                                            </button>
-                                        </td>
-                                        <td>
-                                            <button type="button" class="btn btn-outline-secondary btn-sm">
-                                                <i class="fa-solid fa-pencil"></i>
-                                            </button>
-                                            
-                                            <button type="button" class="btn btn-outline-secondary btn-sm">
-                                                <i class="fa-solid fa-trash"></i>
-                                            </button>
-                                        </td>
-                                    </tr>
-
-                                    <tr class="border">
-                                        <th class="fw-normal" scope="row">
-                                            <div class="code">
-                                                <i class="fa-solid fa-code text-light py-2"></i>
-                                            </div>
-                                            Classe 82
-                                        </th>
-                                        <td class="d-sm-none d-md-inline-block border-0">15 febbraio 2021</td>
-                                        <td class="d-sm-none d-md-inline-block border-0">20%</td>
-                                        <td>
-                                            <button type="button" class="btn
-                                                btn-success"
-                                                style="--bs-btn-padding-y:
-                                                .25rem; --bs-btn-padding-x:
-                                                .5rem; --bs-btn-font-size:
-                                                .75rem;">
-                                                Done
-                                            </button>
-                                        </td>
-                                        <td>
-                                            <button type="button" class="btn btn-outline-secondary btn-sm">
-                                                <i class="fa-solid fa-pencil"></i>
-                                            </button>
-                                            
-                                            <button type="button" class="btn btn-outline-secondary btn-sm">
-                                                <i class="fa-solid fa-trash"></i>
-                                            </button>
-                                        </td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                            
-                           <div class="faq border bg-light rounded-2">
+                            <div class="card faq border bg-light rounded-2">
                                 <h5 class="p-2">F.A.Q.</h5>
                                 <div class="accordion" id="accordionExample">
                                     <div class="accordion-item">
@@ -613,10 +611,10 @@
                         </div>
 
                         <div class="col-12 col-lg-4 todo mb-2 px-2">
-                            <div class="todolist border rounded-2 m-2">
-                                <h5 class="border-bottom bg-light p-1">Todo</h5>
+                            <div class="card todolist border rounded-2 mt-2">
+                                <h5 class="border-bottom p-2 bg-light">Todo</h5>
                                 
-                                <ul class="list-group m-2">
+                                <ul class="list-group m-2 bg-light">
                                     <li class="list-group-item">
                                         <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckbox">
                                         <label class="form-check-label" for="firstCheckbox">Kickoff nuove classi</label>
@@ -632,7 +630,7 @@
                                 </ul>
                             </div>
 
-                            <div class="stats border rounded-2 mt-3 p-3">
+                            <div class="card stats border rounded-2 mt-3 p-3">
                                 <div class="info border rounded-2 px-1">
                                     <img src="./img/stats.jpeg" alt="">
 
