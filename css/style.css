@@ -42,6 +42,10 @@ img{
     .content .boolean_student #logo .bdg_xxs{
         display: none;
     }
+
+    .content table .del_xxs{
+        display: none;
+    }
 }
 
 @media screen and (min-width:992px) {
@@ -72,6 +76,10 @@ img{
     width: 300px;
 }
 
+.navbar .dropdown-menu{
+    margin-left: -8rem;
+}
+
 /*Main*/
 
 .top{
@@ -97,6 +105,8 @@ img{
     display: none;
 }
 
+
+/*Student */
 .content .boolean_student{
     background-color: var(--bg-blue);
 }
@@ -105,7 +115,12 @@ img{
     width: 100%;
 }
 
+/*Table*/ 
 .content .table .code{
     display: inline-block;
     width: 2rem;
+}
+
+.content .table tr:hover{
+    background-color: lightgrey;
 }
